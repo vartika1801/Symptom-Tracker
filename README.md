@@ -53,7 +53,8 @@ symptom-tracker/
 Install dependencies using:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
+---
 dependencies:
   - python=3.9  # or your specific Python version
   - pip
@@ -68,7 +69,7 @@ post_install:
   - python -c "import nltk; nltk.download('stopwords')"
 
 run:
-  - python app.py ```
+  - python app.py 
 
 
 
