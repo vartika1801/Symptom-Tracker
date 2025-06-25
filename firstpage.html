@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='first.css') }}">
+</head>
+<body>
+    <h2> Symptom Tracker </h2>
+    
+    <form method = "POST",action = "/submit">
+        <label for="symptoms">Describe Symptoms</label><br>
+        <input type = "text" name="symptoms" id="symptoms" placeholder="Describe your illness">
+        <button type="submit" class="submit-btn">Submit</button>
+
+        </form>
+    
+</body>
+</html>

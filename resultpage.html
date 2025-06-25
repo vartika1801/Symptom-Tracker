@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicted Results</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='first.css') }}">
+</head>
+<body>
+    <div class="result-box">
+        <h2>Prediction Result</h2><br>
+        <p><strong>You may be suffering from :</strong>{{ prediction }}</p>
+        <a href="/">Check another symptom</a>
+    </div>
+    
+</body>
+</html>
